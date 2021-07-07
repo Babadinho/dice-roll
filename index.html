@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll a Dice Game</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Roll a Dice/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <section class="col-10 col-md-6 player text-center" id="firstPlayer">
+                <div class="score">
+                    <p id="scoreTotal1"></p>
+                    <p id="count1"></p>
+                    <p id="score1"></p>
+                </div>
+                <button type="button" class="btn btn-primary btn-lg reset" id="reset1">Reset Game</button>
+                <div>
+                    <img src="./images/dice.png" alt="dice" class='dice-image1' id='dice-image1'>
+                    <img src="./images/dice 1.png" alt="dice" class='dice-roll' id='dice-roll1'>
+                    <img src="./images/dice 2.png" alt="dice" class='dice-roll' id='dice-roll2'>
+                    <img src="./images/dice 3.png" alt="dice" class='dice-roll' id='dice-roll3'>
+                    <img src="./images/dice 4.png" alt="dice" class='dice-roll' id='dice-roll4'>
+                    <img src="./images/dice 5.png" alt="dice" class='dice-roll' id='dice-roll5'>
+                    <img src="./images/dice 6.png" alt="dice" class='dice-roll' id='dice-roll6'>
+                </div>
+                <button type="button" class="btn btn-secondary btn-lg" id="btn1">Player 1</button>
+                <p id="game1"></p>
+                <p id="welcome"></p>
+            </section>
+            <section class="col-10 col-md-6 player text-center">
+                <div class="score">
+                    <p id="scoreTotal2"></p>
+                    <p id="count2"></p>
+                    <p id="score2"></p>
+                </div>
+                <button type="button" class="btn btn-primary btn-lg reset" id="reset2">Reset Game</button>
+                <div>
+                    <img src="./images/dice.png" alt="dice" class='dice-image2' id='dice-image2'>
+                    <img src="./images/dice 1.png" alt="dice" class='dice-roll2' id='dice2-roll1'>
+                    <img src="./images/dice 2.png" alt="dice" class='dice-roll2' id='dice2-roll2'>
+                    <img src="./images/dice 3.png" alt="dice" class='dice-roll2' id='dice2-roll3'>
+                    <img src="./images/dice 4.png" alt="dice" class='dice-roll2' id='dice2-roll4'>
+                    <img src="./images/dice 5.png" alt="dice" class='dice-roll2' id='dice2-roll5'>
+                    <img src="./images/dice 6.png" alt="dice" class='dice-roll2' id='dice2-roll6'>
+                </div>
+                <button type="button" class="btn btn-secondary btn-lg" id="btn2">Player 2</button>
+                <p id="game2"></p>
+            </section>
+        </div>
+    </div>
+
+    <script src="../Roll a Dice/code.js"></script>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
